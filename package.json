@@ -1,0 +1,25 @@
+{
+  "name": "zingchart-locale",
+  "version": "1.0.0",
+  "description": "A package to change the locale of menus and text in the ZingChart library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zingchart/zingchart-locale.git"
+  },
+  "keywords": [
+    "zingchart"
+  ],
+  "author": "ZingChart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zingchart/zingchart-locale/issues"
+  },
+  "homepage": "https://github.com/zingchart/zingchart-locale#readme",
+  "dependencies": {
+    "zingchart": "^2.3.3"
+  }
+}
