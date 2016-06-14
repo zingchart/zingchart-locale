@@ -9,7 +9,7 @@ Within your JSON, but outside the graphset object, include `“locale”:”MYLO
 ## Example:
 
 ```
-zingchart.i18n.en-us =  {
+zingchart.i18n.en_us =  {
 	'rtl' : false,
 	'decimals-separator' : '.',
 	'thousands-separator' : '',
@@ -77,7 +77,7 @@ zingchart.i18n.en-us =  {
 };
 
 var myConfig = {
-	locale: 'en-us'
+	locale: 'en_us'
 	graphset:[{
 		type: 'line',
 		series: [{
@@ -94,4 +94,4 @@ zingchart.render({
 
 
 ## Contributing
-Please follow the example file `zingchart-i18n-en-us.js` as a template which has the required structure. Your filename should be prefixed with `zingchart-i18n-` and an appropriate language abbreviation.
+Please follow the example file `zingchart-i18n-en-us.js` as a template which has the required structure. Your filename should be prefixed with `zingchart-i18n-` and an appropriate language abbreviation, while the variable with underscores as necessary e.g. `zingchart.i18n.en_us`
