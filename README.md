@@ -106,10 +106,11 @@ To ease including locales into your environment, we have provided a few differen
    <script src="./path/to/zingchart.min.js"></script>
    <script src="./path/to/locales/zingchart-i18n-en-us.min.js"></script>
    ...
-
   ```
+  
   2. Reference the locale key from the file loaded in your json. In this case, 'en_us' will be our key
-  ```html
+ 
+  ```js
     zingchart.render({
     	id: 'myChart',
     	data: {
