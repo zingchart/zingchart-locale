@@ -90,8 +90,8 @@ zingchart.render({
 ## Installation
 To ease including locales into your environment, we have provided a few different ways to download this package.
   1. Download the package directly from [github](https://github.com/zingchart/zingchart-locale/archive/master.zip)
-  2. Install with bower using the command `bower install zingchart`.
-  3. Install with npm using the command `npm install zingchart`.
+  2. Install with bower using the command `bower install zingchart-locale`.
+  3. Install with npm using the command `npm install zingchart-locale`.
 
 ## Usage
 
