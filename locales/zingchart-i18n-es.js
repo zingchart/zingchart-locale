@@ -1,0 +1,75 @@
+(function(){
+  var locale = {
+    'rtl' : false,
+    'decimals-separator' : '.',
+    'thousands-separator' : '',
+    'menu-reload' : 'Refrescar',
+    'menu-print' : 'Imprimir graphíco',
+    'menu-viewaspng' : 'Mostrar Cómo PNG',
+    'menu-viewasjpg' : 'Mostrar Cómo JPG',
+    'menu-downloadpdf' : 'Descargar PDF',
+    'menu-downloadsvg' : 'Descargar SVG',
+    'menu-exportdata' : 'Exportar Datos',
+    'menu-zoomin' : 'Aumentar',
+    'menu-zoomout' : 'Reducir',
+    'menu-viewall' : 'Visualizar Todos',
+    'menu-viewsource' : 'Muestra Código Fuente',
+    'menu-bugreport' : 'Enviar Reporte De Error',
+    'menu-switchto2d' : 'Cambiar a 2D',
+    'menu-switchto3d' : 'Cambiar a 3D',
+    'menu-showguide' : 'Muestra Guía',
+    'menu-hideguide' : 'Esconde Guía',
+    'menu-switchtolin' : 'Muestra Escala Linear',
+    'menu-switchtolog' : 'Muestra Escala Logarítmica',
+    'menu-fullscreen' : 'Muestra Pantalla Completa',
+    'menu-exitfullscreen' : 'Reducir Pantalla Completa',
+    'menu-goback' : 'Regresar',
+    'menu-goforward' : 'Avanzar',
+    'date-formats' : {
+        'msecond' : '%d %M %Y<br>%g:%i:%s %A<br>%q ms',
+        'second' : '%d %M %Y<br>%g:%i:%s %A',
+        'minute' : '%d %M %Y<br>%g:%i %A',
+        'hour' : '%d %M %Y<br>%g %A',
+        'day' : '%d %M %Y',
+        'month' : '%M %Y',
+        'year' : '%Y'
+    },
+    'days-short' : ['Dom', 'Lun', 'Mart', 'Mier', 'Jue', 'Vier', 'Sab'],
+    'days-long' : ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'],
+    'months-short' : ['Enero', 'Feb.', 'Marzo', 'Abr', 'Mayo', 'Jun.', 'Jul.', 'Agosto', 'Sep.', 'Oct', 'Nov', 'Dic'],
+    'months-long' : ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Augusto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+    'sync-wait' : 'Por Favor Espere...',
+    'export-wait' : 'Exportando...',
+    'progress-wait-long' : 'Por Favor Espere...Cargando...',
+    'progress-wait-short' : 'Por Favor Espere...',
+    'progress-wait-mini' : '...',
+    'error-header' : 'Un Error Ha Ocurrido',
+    'error-message' : 'Mensaje de Error:',
+    'error-close' : 'Cerrar',
+    'bugreport-header' : 'Muestra informe de error',
+    'bugreport-senddata' : 'Enviar datos de JSON',
+    'bugreport-sendcapture' : 'Enviar Captura de Grafico',
+    'bugreport-yourcomment' : 'Su Commento:',
+    'bugreport-jsondata' : 'Datos de JSON:',
+    'bugreport-youremail' : 'Su Dirección de Correo Electrónico',
+    'bugreport-infoemail' : 'Si Gustas Recibir Correo Electrónico Sobre Su Reporte de Error',
+    'bugreport-emailmandatory' : 'Su Dirección de Correo Electrónico es mandatorio...',
+    'bugreport-submit' : 'Enviar',
+    'bugreport-cancel' : 'Cancelar',
+    'bugreport-confirm' : 'Su Informe de Error Se Ha Enviado.\n\nGracias!',
+    'about-close' : 'Cerrar',
+    'viewsource-jsonsource' : 'JSON Analizado Gramaticalmente',
+    'viewsource-originalsource' : 'JSON Original',
+    'viewsource-close' : 'Cerrar',
+    'viewsource-apply' : 'Aplique',
+    'viewimage-close' : 'Cerrar',
+    'legend-pagination' : 'Pagina %page% de %pages%'
+  };
+
+  if (typeof zingchart !== 'undefined') {
+    zingchart.i18n.es = locale;
+  }
+  else if (typeof window === 'undefined' && module.exports !== 'undefined'){
+    module.exports = locale;
+  }
+})();
