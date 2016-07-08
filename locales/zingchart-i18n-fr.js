@@ -20,7 +20,7 @@
   	'menu-showguide' : 'Montrer Guide',
   	'menu-hideguide' : 'Cacher Guide',
   	'menu-switchtolin' : 'Montrer Echelle Linéaire',
-  	'menu-switchtolog' : 'Show Echelle Logarithmique',
+  	'menu-switchtolog' : 'Montrer Echelle Logarithmique',
   	'menu-fullscreen' : 'Plein Ecran',
   	'menu-exitfullscreen' : 'Quitter Plein Ecran',
   	'menu-goback' : 'Précédent',
