@@ -67,7 +67,7 @@
   };
   
   if (typeof zingchart !== 'undefined') {
-    zingchart.i18n.en_us = locale;
+    zingchart.i18n.pt_br = locale;
   }
   else if (typeof window === 'undefined' && module.exports !== 'undefined'){
     module.exports = locale;
