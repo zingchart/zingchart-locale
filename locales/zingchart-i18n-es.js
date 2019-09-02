@@ -1,8 +1,8 @@
 (function(){
   var locale = {
-    'rtl': false,
+    'rtl' : false,
     'decimals-separator' : ',',
-    'thousands-separator ': '.',
+    'thousands-separator' : '.',
     'menu-reload' : 'Recargar',
     'menu-print' : 'Imprimir gráfico',
     'menu-viewaspng' : 'Mostrar como PNG',
@@ -24,7 +24,7 @@
     'menu-fullscreen' : 'Mostrar a pantalla completa',
     'menu-exitfullscreen' : 'Salir de pantalla completa',
     'menu-goback' : 'Volver atras',
-    'menu-goforward' : 'Avanzar',
+    'menu-goforward' : 'Siguiente',
     'date-formats' : {
       'msecond' : '%d %M %Y<br>%g:%i:%s %A<br>%q ms',
       'second' : '%d %M %Y<br>%g:%i:%s %A',
