@@ -99,7 +99,13 @@
     'viewsource-close' : 'Cerrar',
     'viewsource-apply' : 'Aplicar',
     'viewimage-close' : 'Cerrar',
-    'legend-pagination' : 'Página %page% de %pages%'
+    'legend-pagination' : 'Página %page% de %pages%',
+    'menu-disablepagescroll' : 'Desactivar barra de desplazamiento',
+    'menu-downloadcsv' : 'Descargar en CSV',
+    'menu-downloadxls' : 'Descargar en XLS',
+    'menu-enablepagescroll' : 'Activar barra de desplazamiento',
+    'menu-hidedatatable' : 'Ocultar tabla de datos',
+    'menu-viewdatatable' : 'Mostrar tabla de datos'
   };
 
   if (typeof zingchart !== 'undefined') {
